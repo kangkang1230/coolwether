@@ -2,7 +2,7 @@ package com.hfad.coolweather.db;
 
 import org.litepal.crud.DataSupport;
 
-public class country extends DataSupport {
+public class Country extends DataSupport {
     private int id;//每一个实体类都需有一个id
     private String countryName; //记录区县名称
     private int countryCode;//记录区县代码
